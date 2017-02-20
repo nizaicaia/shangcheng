@@ -1,0 +1,164 @@
+/*内容*/
+.center{
+	width: 1200px;
+	margin:35px auto 53px auto;
+	height: 598px; 
+}
+.center .list{
+	height:533px;
+	width: 1198px;
+	border: 1px solid #cfcfcf;
+}
+.center .list ul.title{
+	height:44px;
+	line-height: 44px;
+	border-bottom:1px solid #cfcfcf;
+	font-size: 12px;
+}
+.center .list ul.title li{
+	height:44px; 
+}
+.center .list ul{
+	height:164px;
+	line-height: 164px;
+	align-items:center;
+}
+.center .list li{
+	float: left;
+	height: 164px;
+}
+.center .list .img{
+	width: 118px;
+}
+.center .list .news{
+	width: 239px;
+}
+.center .list .shop{
+	width: 180px;
+}
+.center .list .price{
+	width: 175px;
+}
+.center .list .num{
+	width: 165px;
+}
+.center .list .opt{
+	width: 125px;
+}
+.center .list ul input[type=checkbox]{
+	margin:0 15px 0 25px; 
+}
+.center .list ul img{
+	border: 1px solid #e2e2e2;
+	margin:22px 0 0 0; 
+}
+.center .list .brief{
+	display: inline-block;
+	width: 210px;
+	font-size: 15px;
+	line-height: 20px;
+	margin-top:60px;
+	text-align: left;
+}
+.center .list .shop p,.center .list .price p{
+	margin-top:60px;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: center;
+}
+.center .list .align{
+	text-align: center;
+}
+.center .list .gray{
+	color: #878686;
+}
+.center .list .red{
+	color: #e01135;
+}
+.center .list li input[type=button]{
+	height: 25px;
+	width: 18px;
+	background-color: #f0f0f0;
+	border:1px solid #e5e5e5;
+}
+.center .list li input.del{
+	border-right:none; 
+}
+.center .list li input.add{
+	border-left:none; 
+}
+.center .list li input[type=text]{
+	text-align: center;
+	height: 23px;
+	width: 39px;
+	border: 1px solid #aaaaaa;
+}
+.center .list li button{
+	border: none;
+	background-color: white;
+	color: #645858;
+	letter-spacing: 15px;
+	padding-left: 15px;
+}
+.center .list ul.center{
+	height: 160px;
+	margin:0 20px 0 20px;
+	width:1160px;
+	border-top:1px dotted #b2b2b2;
+	border-bottom:1px dotted #b2b2b2;   
+}
+.center .list ul.center li{
+	height: 160px;
+	line-height: 160px;
+}
+.center .list ul.center input[type=checkbox]{
+	margin:0 15px 0 5px; 
+}
+.center .close{
+	height: 62px;
+	line-height: 62px;
+	background-color:#e5e5e5;
+	border: 1px solid #cfcfcf;
+	border-top:none;
+	font-size: 12px;
+	color: #444444; 
+}
+.center .close li{
+	float: left;
+}
+.center .close input[type=checkbox]{
+	margin:0 15px 0 25px; 
+}
+.center .close button{
+	background-color:#e5e5e5;
+	border: none;
+}
+.center .close .del{
+	margin:0 630px 0 37px; 
+}
+.center .close .red{
+	margin:0 3px 0 3px;
+	color: #e01135;
+}
+.center .close .opt span{
+	font-size: 11px;
+}
+.center .close .much{
+	margin-left:40px;
+}
+.center .close .much p{
+
+}
+.center .close .much strong{
+	font-size: 20px;
+	margin:0 10px 0 10px; 
+}
+.center .close .total{
+	width: 100px;
+	height: 36px;
+	border: none;
+	font-size: 25px;
+	color: white;
+	background-color:#e01135;
+	margin:13px 0 0 35px;  
+}

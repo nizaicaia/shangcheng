@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/*登录*/
+body,p,ul,li,input,span,img{
+    margin:0px;
+    padding: 0px; 
+    list-style: none;
+    font-family:"微软雅黑";
+    line-height: 1em;
+}
+img{
+	border: none;
+}
+div,input,p,span,a,li{
+    background-repeat:no-repeat;
+    outline: none;
+}
+a{  
+    font-family:"微软雅黑";
+    text-decoration:none; 
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+.parent{
+    width: 1600px;
+    margin:0 auto;
+}
+/*logo*/
+.header{
+	width: 1200px;
+    margin:0 auto;
+	height:129px; 
+}
+.header img{
+	padding:36px 0 0 110px;
+}
+/*内容*/
+.center{
+	height:469px;
+	width: 1200px;
+    margin:0 auto;
+}
+.cen-left{
+	float: left;
+	height: 469px;
+	width:600px;
+	position: relative;
+}
+.cen-left img{
+	position: absolute;
+	transition: all 1.5s;
+}
+.cen-left .left-centera{
+	top:163px;
+	left:179px;
+}
+.cen-left .left-centerb{
+	top:163px;
+	left:179px;
+}
+.cen-left .left-centerb:hover{
+	opacity: 0;
+}
+.cen-left .big:hover{
+	transform:scale(1.3) rotate(-360deg);
+}
+.cen-left .left-a{
+	top:319px;
+	left:96px;
+}
+.cen-left .left-b{
+	top:265px;
+	left:164px;
+}
+.cen-left .left-c{
+	top:144px;
+	left:88px;
+}
+.cen-left .left-d{
+	top:108px;
+	left:205px;
+}
+.cen-left .left-e{
+	top:58px;
+	left:299px;
+}
+.cen-left .left-f{
+	top:91px;
+	left:422px;
+}
+.cen-left .left-g{
+	top:230px;
+	left:477px;
+}
+
+
+
+
+
+
+
+.cen-right{
+	width: 400px;
+	float: right;
+	margin-right:79px;
+}
+.cen-right .login a{
+	display:inline-block;
+	height: 47px;
+	width: 200px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 50px;
+}
+.cen-right .login-left{
+	color: white;
+	background-color: #e01135;
+	border-bottom: 3px solid #d10327;
+}
+.cen-right .login-right{
+	color:#898989;
+	background-color: #f1f1f1;
+	border-bottom: 3px solid #dfdfdf;
+}
+.cen-right .form{
+	padding:40px 38px 0 35px;
+	width: 325px;
+	border: 1px solid #dbdbdb;
+	color: #696969;
+	border-top:none;
+}
+.cen-right .form p span{
+	display: inline-block;
+	width: 51px;
+	height: 40px;
+	border: 1px solid #dbdbdb;
+	float: left;
+	background-position:center;
+}
+.cen-right .form .pas{
+	margin:18px 0 25px 0; 
+}
+.cen-right .form .sp-use{
+	background-image: url(../img/center-use.png);
+}
+.cen-right .form .sp-pas{
+	background-image: url(../img/center-pas.png);
+}
+.cen-right .form p input[type=password],.form p input[type=text]{
+	height: 40px;
+	border: 1px solid #dbdbdb;
+	border-left:none;
+	width: 257px;
+	padding-left: 14px; 
+	float: left;
+	font-size: 14px;
+	*line-height:38px; 
+}
+.cen-right .form .record{
+	font-size: 14px;
+}
+.cen-right .form input[type=checkbox]{
+	margin:0px 7px 0 18px;
+	float: left;
+	width: 14px;
+	height: 14px;
+}
+.cen-right .form label{
+	float: left;
+}
+.cen-right .form .record a{
+	float: right;
+	margin-right:7px;
+	color: #696969;
+}
+.cen-right .form input[type=submit]{
+	width: 325px;
+	border-radius: 5px;
+	height: 52px;
+	border: none;
+	margin:30px 0 24px 0; 
+	background-color: #e01135;
+	color: white;
+	font-size: 23px;
+	letter-spacing:22px;
+	padding-left: 22px;
+}
+.cen-right .form .space{
+	text-align: center;
+	font-size: 12px;
+	background-image: url(../img/cen-right1.png);
+	background-position:center;
+}
+.cen-right .form .link{
+	padding-left: 17px;
+	margin:18px 0 26px 0; 
+}
+.cen-right .form .link a{
+	display: block;
+	width: 50px;
+	float: left;
+	margin-right:32px; 
+	text-align: center;
+	color: #666666;
+}
+.cen-right .form .link span{
+	display:block;
+	font-size: 11px;
+	line-height: 11px;
+	margin-top: 12px;
+}
+/*尾部*/
+.footer{
+	width: 1200px;
+	margin:110px auto 0 auto;
+	height: 72px;
+	text-align: center;
+}
+.footer p{
+	padding-top:17px;
+	font-size: 11px;
+	color: #514442;
+	line-height:20px;
+}

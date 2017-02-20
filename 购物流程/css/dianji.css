@@ -1,0 +1,212 @@
+.center{
+	width: 1200px;
+	margin: 0 auto;
+}
+.center .select{
+	height: 222px;
+	margin: 35px 0 53px 0;
+}
+.center .select img{
+	height: 198px;
+	width: 198px;
+	border: 1px solid #e2e2e2;
+	float: left;
+}
+.center .select-center{
+	width: 650px;
+	margin-left:39px;
+	float: left; 
+}
+.select-center .title{
+	line-height: 28px;
+	font-size: 14px;
+}
+.select-center .lab li{
+	height:24px;
+	line-height: 24px;
+	text-align: center;
+	width: 140px;
+	color: #707070;
+	background-color: #eeeeee;
+	font-size: 12px;
+	font-weight: bold;
+	float: left;
+	margin:8px 10px 10px 0;
+}
+.select-center .lab li input[type=text]{
+	width: 14px;
+	border: none;
+	color: #e01135;
+	text-align: center;
+}
+.select-center .det li{
+	padding:5px 8px 5px 9px;
+	float: left;
+	border: 1px solid #d6d6d6;
+	width: 191px;
+	height: 32px;
+	font-size: 12px;
+	margin:0 10px 10px 0; 
+}
+.select-center .det .last{
+	margin-right:0;
+}
+.select-center .det li p{
+	line-height: 18px;
+}
+.select-center .det .gray{
+	color:#3a3a3a;
+}
+.det .gray span{
+	float: right;
+	color: #645858;
+}
+.select-center .det .red{
+	color: #e01135;
+}
+.det .red strong{
+	margin-right: 13px;
+}
+.select-center .det li:hover{
+	background-color: #e01135;
+	border-color:#e01135;
+}
+.select-center .det li:hover p,.select-center .det li:hover span{
+	color: white;
+}
+.select-right{
+	float: right;
+	width: 210px;
+}
+.select-right .amoun{
+	text-align: right;
+	margin:17px 0 25px 0; 
+}
+.select-right .amoun span{
+	color: #e01135;
+	padding-left:22px; 
+}
+.select-right .amoun strong{
+	font-size: 26px;
+}
+.select-right .settle{
+	width: 210px;
+	line-height: 44px;
+	height: 44px;
+	color: white;
+	background-color: #fe7f41;
+	text-align: center;
+	margin-bottom:10px; 
+}
+.select-right .return{
+	width: 208px;
+	height: 42px;
+	border: 1px solid #fca44a;
+	color: #fe7f41;
+	text-align: center;
+	line-height: 42px;
+}
+.center .recom{
+	padding:0 17px 0 14px;
+	background-color: #fe7f41;
+	color: white;
+	font-size: 14px;
+	height:40px;
+	line-height: 40px;
+}
+.center .recom a{
+	float: right;
+	color: white;
+}
+.center .list{
+	margin:20px 0 36px 0; 
+}
+.center .list ul{
+	width: 1220px;
+}
+.center .list li{
+	height:324px;
+	width: 222px;
+	border: 1px solid #e2e2e2;
+	float: left;
+	margin:0 20px 20px 0;
+	text-align: center;
+    font-size: 0;
+    position: relative;  
+}
+.center .list li .img{
+	height: 225px;
+	width: 222px;
+	margin-bottom: 20px;
+}
+.center .list li .much{
+    font-size: 12px;
+    padding-bottom: 17px;
+    height: 19px;
+    text-align: left;
+    padding:11px 10px 17px 14px;
+}
+.center .list li .much .left{
+    float: left;
+}
+.center .list li .much .left .big{
+    font-size: 19px;
+}
+.center .list li .much .right{
+    float: right;
+    line-height: 12px; 
+    color: #d96176;
+    margin-top: 7px;
+}
+.center .list li .txt{
+    font-size: 12px;
+    text-align: left;
+    padding:0 9px 15px 9px;
+}
+.center .list li .label-img{
+    position: absolute;
+    top:-1px;
+    right:-1px;
+}
+.center .list li .label-txt{
+    font-size: 11px;
+    color: white;
+    position: absolute;
+    top:5px;
+    right:3px;
+}
+.center .list li.dis{
+    margin-right:0px; 
+}
+.center .list li .pitch{
+    position:relative;
+    border-top:1px solid white;
+}
+.center .list li .pitch:hover{
+    background-color: #eeeeee;
+    border-top:1px solid #e2e2e2; 
+}
+.center .list li .pitch:hover a{
+    display: block;
+}
+.center .list li .pitch:hover .left{
+    color: #e01135;
+}
+.center .pitch a{
+    display: none;
+    height:30px;
+    width: 110px;
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+    position: absolute;
+    top:-31px;
+}
+.center .pitch a.instant{
+    background-color:#f23e64;
+    left: 0;
+}
+.center .pitch a.collect{
+    background-color:#ff9c00;
+    right: 0;
+}

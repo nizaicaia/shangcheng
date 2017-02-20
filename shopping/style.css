@@ -1,0 +1,1406 @@
+.clearfix:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.clearfix{
+    zoom: 1;
+}
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "微软雅黑";
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+}
+/*IE7兼容渐变色*/
+.selector { 
+    	background:transparent;
+        /*
+            
+         背景颜色透明
+            “=”后面是十六进制的透明度值（alpha）
+            startColorstr:起始的颜色值;
+            endColorstr:结束的颜色值;
+         */
+	    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#90ffffff,endColorstr=#90ffffff); 
+	    zoom: 1;
+        /*元素透明*/
+        /*filter:Alpha(opacity=70);*/
+
+	}
+/*头部*/
+.header{
+	width:1600px;
+	height: 114px;
+	border-bottom:1px solid #dddddd;
+	margin: 0 auto;
+}
+.header .header-top{
+	height:79px;
+}
+.header-top .banner-back{
+	background-image:url(img/banner-back.png);
+	height:79px;
+	width:1600px;
+	margin: 0 auto;
+}
+.header-top .banner{
+	height:79px;
+	width: 1253px;
+	margin-left: 160px;
+	background-image:url(img/banner.png);
+}
+.header .header-bottom{
+	height:35px;
+	background-color: #f6f6f6;
+}
+.header-bottom a{
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	font-size: 12px;
+	color: #645a59;
+}
+.header-bottom .left{
+	float: left;
+	margin-left:187px;
+}
+.left a{
+	float: left;
+	margin-left:26px ;
+}
+.left .mov{
+	padding-left:18px;
+	background-image:url(img/header-mov.png);
+	background-position:0 11px;
+}
+.left .weixin{
+	padding-left:30px;
+	background-image: url(img/header-weixin.png);
+	background-position:0 center;
+}
+.header-bottom .right{
+	float:right;
+	margin-right:219px;
+	margin-top:12px ;
+}
+.right a{
+	float: left;
+	height: 12px;
+	line-height: 12px;
+	padding-left:12px;
+	margin-right:13px;
+	border-left: 1px solid #c5c5c5;
+}
+.right .user{
+	color: red;
+	margin-right:25px;
+	margin-left: 0;
+	border: none;
+}
+/*搜索框*/
+.seek{
+	width:1600px;
+	height:161px;
+	margin: 0 auto;
+	position:relative;
+}
+.seek .seek-top{
+	height: 116px;
+	width: 1600px;
+}
+.seek-top .logo{
+	float: left;
+	background-image: url(img/seek-logo.png);
+	height: 116px;
+	width:200px;
+	margin-left: 213px;
+	background-position:0 34px;
+	position:relative;
+}
+.seek-top .logo img{
+	position:absolute;
+	left: 11px;
+	bottom:24px;
+}
+.seek-top .beer{
+	float:left;
+	background-image:url(img/seek-beer.png);
+	background-position:15px 14px;
+	width: 295px;
+	height: 116px;
+}
+.seek-top .text{
+	margin:38px 0 0 136px;
+	font-family: "黑体";
+}
+.seek-top .spring{
+	color: #350065;
+	font-size: 22px;
+}
+.seek-top .buy{
+	font-size:15px;
+}
+.seek-top .buy strong{
+	font-size:19px ;
+	color: red;
+}
+.seek-top .searchbox{
+	float: left;
+	width:674px;
+	height: 116px;
+	font-size: 0px;
+	position:relative;
+}
+.seek-top .searchbox img{
+	position:absolute;
+	top:33px;
+	right:19px;
+}
+.searchbox .search{
+	float: left;
+	margin:37px 0 0 36px;
+	position: relative;
+}
+/**/
+.searchbox .search .wares{
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	width:62px;
+	border:1px solid #dfdfdf;
+	text-align: center;
+    position: relative;
+}
+.searchbox .search .wares ul li{
+        list-style:none;
+}
+.searchbox .search .wares span{
+	display: block;
+	padding-right:10px;
+	width:52px;
+	background-image:url(img/sj.png);
+	background-position:45px center;
+	font-size: 13px;
+	color: #7a7979;
+	cursor: pointer;
+}
+.search .wares:hover .hide{
+        display: block;
+}
+.search .wares .hide{
+    display: none;
+    position: absolute;
+    left:-1px;
+    *top:37px;
+    width: 62px;
+    border:1px solid #dedede;
+    border-top:none;
+    z-index:100;
+    *z-index:100;
+}
+.search .wares .hide li{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #333;
+    border-bottom: 1px solid #fff;
+    color: #fff
+}
+.search .wares .hide li a{
+    color:white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.search .wares .hide li:hover{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ccc;
+}
+/**/
+.searchbox .search input[type=text]{
+	float: left;
+	width:340px;
+	height:36px;
+	border: none;
+	border-top:1px solid #dfdfdf;
+	border-bottom:1px solid #dfdfdf;
+	outline: none;
+	*font-size: 12px;
+	*height:26px;
+	*padding-top:10px; 
+}
+.searchbox .search .input-text{
+	position: absolute;
+	top:11px;
+	left:214px;
+	font-size:13px;
+	height:13px;
+	width:110px;
+	color:#8e8e8e;
+}
+.searchbox .search:hover .input-text{
+	display: none;
+}
+.searchbox .search input[type=button]{
+	float: left;
+	width:82px;
+	height:38px;
+	margin-left: -82px;
+	border: none;
+	background-image: url(img/seek-sea1.png);
+	background-color: #ff9e39;
+	background-position:13px center;
+	color: white;
+	font-size: 16px;
+	outline: none;
+}
+.searchbox .shopp{
+	float:right;
+	margin-top: 37px;
+	font-size: 12px;
+	width: 210px;
+	height:36px;
+	border:1px solid #dfdfdf;
+	background-image: url(img/seek-sea2.png);
+	background-position: 114px 6px;
+}
+/**/
+.searchbox .shopp .mywares{
+	float: left;
+	height: 36px;
+	margin:0 10px 0 16px;
+	width:75px;
+	line-height: 36px;
+    position: relative;
+}
+.shopp .mywares ul li{
+        list-style:none;
+}
+.shopp .mywares span{
+	display: block;
+	padding-right:10px;
+	width:65px;
+	background-image:url(img/sj.png);
+	background-position:57px center;
+	font-size: 13px;
+	color: #7a7979;
+	cursor: pointer;
+}
+.shopp .mywares:hover .hide{
+        display: block;
+}
+.shopp .mywares .hide{
+    display: none;
+    position: absolute;
+    left:-17px;
+    *top:37px;
+    width:102px;
+    border:1px solid #dedede;
+    border-top:none;
+    z-index:100;
+    *z-index:100;
+}
+/**/
+.searchbox .shopp .spacer{
+	float: left;
+	border-left: 1px solid #cccccc;
+	height:13px;
+	margin-top:11px;
+}
+.searchbox .shopp .car{
+	float:right;
+	margin-right: 10px ;
+	height:36px;
+	width:65px;
+	line-height: 36px;
+    position: relative;
+}
+.shopp .car ul li{
+    list-style:none;
+}
+.shopp .car span{
+	display: block;
+	padding-left:10px;
+	width:55px;
+	background-image:url(img/sj.png);
+	background-position:right center;
+	font-size: 13px;
+	color: #7a7979;
+	cursor: pointer;
+}
+.shopp .car:hover .hide{
+        display: block;
+}
+.shopp .car .hide{
+    display: none;
+    position: absolute;
+    left:-1px;
+    *top:37px;
+    width:75px;
+    border:1px solid #dedede;
+    border-top:none;
+    z-index:100;
+    *z-index:100;
+}
+.shopp .hide li{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #333;
+    border-bottom: 1px solid #fff;
+    color: #fff
+}
+.shopp .hide li a{
+    color:white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.shopp .hide li:hover{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ccc;
+}
+/**/
+.seek .seek-bottom{
+	height: 45px;
+	width: 1600px;
+	background-color: #645858;
+}
+.seek-bottom .list{
+	height: 45px;
+	margin-left: 220px;
+	font-size: 19px;
+	color: white;
+}
+.seek-bottom .list li{
+	list-style: none;
+	float: left;
+    display:inline-block;
+    line-height:45px;
+    height: 45px;
+    padding:0 27px 0 44px;  
+}
+.seek-bottom .list .sort{
+	background-color:#e01135;
+	padding-left: 17px;
+	width: 205px;
+}
+.seek-bottom .list .sort:hover{
+	background-color:#e01135;
+}
+.seek-bottom .list .on{
+	background:#363031;
+	padding-left:24px;
+}
+.seek-bottom .list .weishang{
+	margin-left:43px;
+	padding-left: 50px;
+	background-image: url(img/seek-list1.png);
+	background-position:3px 10px;
+}
+.seek-bottom .list li:hover{
+	background-color:#363031;
+}
+/*分类*/
+.class{
+	height:406px;
+	width:1600px;
+	margin: 0 auto;
+	background-image:url(img/cls-banner.png);
+}
+.class .class-left{
+	height:406px;
+	width:250px;
+	background-color:#363031;
+	float: left;
+	margin-left:220px;
+}
+.class .class-left div{
+	height: 48px;
+	width:250px;
+	line-height: 48px;
+	font-size:0px ;
+}
+.class .class-left .wine{
+	background-color:#e01135;
+	margin-top: 12px;
+	background-image:url(img/cls-li1.png);
+	background-position:17px center;	
+}
+.class .class-left .title{
+	font-size:14px;
+	color:white;
+	margin:0 6px 0 46px;
+}
+.class .class-left .matter{
+	font-size:12px;
+	color:white;
+	margin-left: 13px;
+}
+.class .class-left .wineset{
+	background-image:url(img/cls-li2.png);
+	background-position:18px center;
+}
+.class .class-left .health{
+	background-image:url(img/cls-li3.png);
+	background-position:19px center;
+}
+.class .class-left .baby{
+	background-image:url(img/cls-li4.png);
+	background-position:19px center;
+}
+.class .class-left .food{
+	background-image:url(img/cls-li5.png);
+	background-position:18px center;
+}
+.class .class-left .cosmetic{
+	background-image:url(img/cls-li6.png);
+	background-position:19px center;
+}
+.class .class-left .digit{
+	background-image:url(img/cls-li7.png);
+	background-position:21px center;
+}
+.class .class-left .dress{
+	background-image:url(img/cls-li8.png);
+	background-position:16px center;
+}
+.class .class-left div:hover{
+	background-color:#e01135; 
+}
+.class .class-right{
+	float:left;
+	height:281px;
+	width:610px; 
+	border: 2px solid #2c2c2c;
+	border-left:none;
+	background-color: #f8f8f8;
+}
+.class-right .beer-left{
+	float: left;
+	height: 228px;
+	width:352px;
+	padding-left:23px;
+	margin-top:19px;	
+}
+.class-right .beer-left strong{
+	color: red;
+	font-size: 17px;
+	display:inline-block;
+	margin-bottom:5px;
+}
+.class-right .beer-left span{
+	font-size: 12px;
+	color: #645858;
+}
+.class-right .beer-left .wine strong,.class-right .beer-left .wineset strong{
+	margin-top: 17px;
+	display:inline-block;
+}
+.class-right .beer-in{
+	float: left;
+	height: 228px;
+	width: 0px;
+	margin-top: 26px;
+	border-right:1px dashed #bababa ;
+}
+.class-right .beer-right{
+	float:left;
+	width: 234px;
+	height: 281px;
+	background-color:white;
+	position: relative;
+}
+/*标签*/
+.class-right .beer-right .red{
+	position:absolute;
+	top:9px;
+	right:25px; 
+}
+.class-right .beer-right .triangle{
+	position:absolute;
+	top:42px;
+	right:62px; 	
+}
+.class-right .beer-right .discount{
+	font-size: 12px;
+	color:white;
+	position:absolute;
+	top:16px;
+	right:38px;
+	text-align: center; 
+}
+.class-right .beer-right .discount strong{
+	font-size: 14px;
+}
+.class-right .beer-right img{
+	margin-left:16px;
+}
+.class-right .beer-right .text{
+	text-align: center;
+	margin-top:8px;
+	font-size: 0px;	
+}
+.beer-right .text span{
+	display: inline-block;
+}
+.beer-right .text .quality{
+	color: #e01135;
+	font-size: 14px;
+	line-height: 14px;
+}
+.beer-right .text .sign{
+	color:#4a4a4a ;
+	font-size: 13px;
+	line-height: 13px;
+	margin:6px 0 11px 0;
+}
+.beer-right .text p{
+	color: #645858;
+	font-size: 12px;
+	line-height: 12px;
+}
+.beer-right .text strong{
+	color: #e01135;
+	font-size: 15px;
+}
+/*内容*/
+.content{
+	margin:18px auto 0 auto;
+	width: 1600px;
+}
+/*每日团购*/
+.content .content-group{
+	width: 1160px;
+	height: 829px;
+	margin:0 auto;
+}
+.content-group .group{
+	height: 430px;
+}
+.content-group .group span{
+	display: inline-block;
+}
+.content-group .group .day{
+	width: 250px;
+	height: 430px;
+	float:left;
+	background-image:url(img/contop1-day.png);
+	background-position:25px 197px;
+	background-color:#ffe4e7;
+	text-align: center;
+	font-size: 0px;
+}
+.group .day .everyday{
+	font-size: 24px;
+	line-height: 24px;
+	padding-bottom: 10px;
+	width:230px;
+	margin:20px auto 0 auto;
+	border-bottom: 1px dashed #e5cdcf;
+}
+.group .day .super{
+	width: 250px;
+	margin:18px 0 11px 0;
+	font-size:14px;
+	line-height: 14px;	
+}
+.group .day .red{
+	margin: 0 auto;
+	padding:8px 14px;
+	font-size:14px;
+	line-height: 14px;
+	background-color: #e01135;
+	color: white;
+}
+.group .day .mutch{
+	font-size: 14px;
+	color: #e01135;
+	line-height:26px;
+	margin-top: 14px;
+}
+.group .day .mutch strong{
+	font-size: 26px;
+}
+.group .day .mutch del{
+	color:#686868;
+}
+.content-group .group .wine{
+	float: left;
+	width: 420px;
+	height: 430px;
+	background-image:url(img/contop1-wine.png);
+}
+.group .wine div{
+	width:210px;
+	height:215px;
+	float:left;
+	text-align: center;
+}
+.group .wine .top-left{
+	background-image:url(img/contop1-wine1.png);
+	background-position:39px 63px;
+	position:relative;
+}
+.group .wine .top-right{
+	background-image:url(img/contop1-wine2.png);
+	background-position:45px 63px;	
+	position:relative;
+}
+.group .wine .bottom-left{
+	background-image:url(img/contop1-wine3.png);
+	background-position:55px 61px;
+	position:relative;	
+}
+.group .wine .bottom-right{
+	background-image:url(img/contop1-wine4.png);
+	background-position:14px 28px;
+	position:relative;
+}
+.group .wine p{
+	color:white;
+	font-size:12px;
+	position:absolute;
+	top:125px;
+	right:28px; 
+}
+.group .wine img{
+	position:absolute;
+	top:118px; 
+	right:19px;
+}
+.content-group .group .sales{
+	width: 250px;
+	height: 430px;
+	float:left;
+	background-image:url(img/contop1-sales.png);
+	background-position:0px 198px;
+	background-color:#f4f3f9;
+	text-align: center;
+	font-size: 0px;
+}
+.group .sales .everysales{
+	font-size: 24px;
+	line-height: 24px;
+	padding-bottom: 10px;
+	width:230px;
+	margin:20px auto 0 auto;
+	border-bottom: 1px dashed #e5cdcf;
+}
+.group .sales .bird{
+	width: 250px;
+	margin:18px 0 11px 0;
+	font-size:14px;
+	line-height: 14px;	
+}
+.group .sales .quality{
+	margin: 0 auto;
+	padding:8px 14px;
+	font-size:14px;
+	line-height: 14px;
+	background-color:#ff9000;
+	color: white;
+}
+.group .sales .mutch{
+	font-size: 14px;
+	color: #ff9000;
+	line-height:26px;
+	margin-top: 14px;
+}
+.group .sales .mutch strong{
+	font-size: 26px;
+}
+.group .sales .mutch del{
+	color:#686868;
+}
+.content-group .group .sunnuts{
+	width:240px;
+	height:430px;
+	float: left;
+	text-align: center;
+}
+.group .sunnuts .sunnuts-top{
+	height:214px;
+	border-bottom:1px solid #e3e3e3 ;
+	background-image:url(img/contop1-sunnuts1.png);
+	background-position:36px 85px;
+	background-color: #eafff1;
+	position: relative;
+}
+.sunnuts .sunnuts-top img{
+	margin:21px 0 0 110px;
+}
+.sunnuts .sunnuts-top p{
+	position:absolute;
+	top: 80px;
+	right: 54px;
+	color: white;
+	font-size: 12px;
+}
+.group .sunnuts .sunnuts-bottom{
+	height:215px;
+	background-image:url(img/contop1-sunnuts2.png);
+	background-position:74px 63px ;
+	background-color: #e8ffd3;
+	position: relative;
+}
+.sunnuts .sunnuts-bottom img{
+	margin:14px 0 0 110px;
+}
+.sunnuts .sunnuts-bottom p{
+	position:absolute;
+	top: 74px;
+	right: 54px;
+	color: white;
+	font-size: 12px;
+}
+.content-group .group .title{
+	margin-top:14px;
+	font-size:17px;
+	line-height: 17px;	
+}
+.content-group .group .matter{
+	margin-top:5px;
+	font-size:14px;
+	line-height:14px;
+	color:#686868;	
+}
+.content-group .hot{
+	height: 373px;
+	margin-top: 26px;
+}
+.hot .navigation{
+	height: 35px;
+}
+.hot .navigation a{
+	float: left;
+	display: inline-block;
+	height:35px;
+	line-height:35px;
+	font-size:17px;
+	color: white;
+}
+.hot .navigation .sell{
+	background-image:url(img/contop1-nav1.png);
+	padding-left:24px;
+	width: 118px;
+}
+.hot .navigation .new{
+	background-image:url(img/contop1-nav2.png);
+	width:100px;
+    margin-left:-9px;
+    padding-left:42px;
+}
+.hot .navigation .sales{
+	margin-left:494px;
+	background-image:url(img/contop1-nav3.png);
+	width:106px;
+    padding-left:36px;
+}
+.hot .navigation .discount{
+	background-image:url(img/contop1-nav3.png);
+	width:106px;
+    margin-left:-10px;
+    padding-left:36px;
+}
+.hot .navigation .give{
+	background-image:url(img/contop1-nav4.png);
+	width:91px;
+	margin-left:-10px;
+    padding-left:36px;
+}
+.hot .hot-content{
+	margin-top:10px;
+	height:328px;
+	width: 1180px;
+}
+.hot-content div{
+	height: 326px;
+	width:273px;
+	border: 1px solid #e3e3e3;
+	float: left;
+	text-align: center;
+	margin-right:20px;
+}
+.hot-content .introduce{
+	font-size: 14px;
+	line-height: 14px;
+	margin-bottom: 12px;
+}
+.hot-content .money{
+	font-size:12px;
+	line-height:12px;
+	color: #e01135;
+	padding-top:16px;
+	border-top:1px dashed #cccccc;
+	width: 229px;
+	margin:0 auto;
+	text-align: left;
+	*line-height:16px;
+}
+.hot-content .money .left{
+	*float: left;
+}
+.hot-content strong{
+	font-size: 20px;
+}
+.hot-content .buy .mutch{
+	font-size: 11px;
+	color: #e01135;
+}
+.hot-content .buy{
+	color: #aca8a8;
+	float: right;
+}
+/*促销*/
+.content .content-overflow{
+	width:1160px; 
+	margin:22px auto 0 auto; 
+	height: 1234px;
+}
+.content-overflow .banner{
+	height: 350px;
+	background-image: url(img/contop2-b.png);
+}
+.content-overflow .banner .text{
+	width:566px;
+	height: 142px;
+	float: left;
+	margin-top:102px;
+	background-color: #ff2400;
+	background-image: url(img/contop2-t.png);
+	background-position:21px 26px;
+}
+.content-overflow .banner .text p{
+	font-size: 31px;
+	color: white;
+	margin:82px 0 0 32px;
+	line-height:31px;
+}
+.content-overflow .banner .text strong{
+	color:#fffc00;
+	font-size:36px;
+}
+.content-overflow .wine{
+	background-image: url(img/contop2-wine.png);
+	width:580px;
+	height: 350px;
+	float: right;
+	position: relative;
+}
+.content-overflow .wine .water{
+	position:absolute;
+	bottom: 0;
+	right: 0;
+}
+.content-overflow .wine .redwine{
+	margin:40px 0 0 95px;
+}
+.content-overflow .newproduct{
+	margin-top:20px;
+	height:788px;
+}
+.newproduct .navigation{
+	height: 35px;
+	font-size:0px ;
+}
+.newproduct .navigation a{
+	line-height: 35px;
+	font-size: 15px;
+	float: left;
+	color: #e01135;
+	margin-left:-5px ;
+	padding-left:29px ;
+	width:123px;
+	font-weight: bold;
+	background-image: url(img/contop2-nav2.png);
+}
+.newproduct .navigation .new{
+	font-size: 19px;
+	background-image: url(img/contop2-nav1.png);
+	padding-left: 12px;
+	width: 140px;
+	color: white;
+	margin: 0;
+}
+.content-overflow .newproduct .new-content{
+	margin-top:13px;
+	height:740px;
+	width:1180px;
+}
+.newproduct .new-content li{
+    list-style: none;
+    float: left;
+}
+.newproduct .new-content li div{
+    height: 358px;
+    width: 273px;
+    margin-right: 20px;
+    border: 1px solid #e3e3e3;
+    text-align: center;
+}
+/*标签 新品*/
+.newproduct .new-content li .news{
+	position:relative;
+}
+.newproduct .new-content li .red{
+	position: absolute;
+	top: -1px;
+	right: 5px;
+}
+.newproduct .new-content li .new{
+	position: absolute;
+	top: 5px;
+	right:12px;
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+}
+.new-content p.introduce{
+	font-size: 14px;
+	line-height: 14px;
+	margin-bottom: 12px;
+}
+.new-content p.money{
+	font-size:12px;
+	line-height: 12px;
+	color: #e01135;
+	padding:17px 0 11px 0;
+	border-bottom:1px dashed #cccccc;
+	width:229px;
+	margin:0 auto;
+	text-align:left;
+	*line-height: 16px;
+}
+.new-content p .left{
+	*float: left;
+}
+.new-content p.weishang{
+	padding-top:12px;
+	font-size: 12px;
+	color: #aca8a8;
+	line-height: 12px;
+	width:229px;
+	margin:0 auto;
+	text-align:left;
+}
+.new-content strong{
+	font-size: 20px;
+}
+.new-content .pleased{
+	color: #aca8a8;
+	background-image:url(img/contop2-xin.png);
+	background-position:0 center;
+	padding-left:19px;
+	float:right;
+}
+.new-content .shop{
+	padding-left:17px;
+	background-image: url(img/contop2-shop.png);
+	background-position-y: center;
+	float: left;
+}
+.new-content .buy{
+	float:right;
+}
+.new-content .mutch{
+	font-size: 11px;
+	color: #e01135;
+}
+.content-overflow .more{
+	width:354px;
+	height: 44px;
+	margin:30px auto 0 auto;
+	border:1px solid #bfbfbf;
+	text-align: center;
+	line-height:44px;
+}
+.content-overflow .more img{
+	cursor: pointer;
+	border: 0;
+	vertical-align: middle;
+}
+/*美食*/
+.content .content-food{
+	width: 1160px;
+	margin:39px auto 0 auto; 
+	height:1231px;
+}
+.content-food .chocolate{
+	height: 350px;
+	background-image: url(img/contop3-b.png);
+	background-position:605px 0px;
+	background-color: #f8f7e3;
+}
+.content-food .chocolate .text{
+	width:566px;
+	height: 142px;
+	float: left;
+	margin-top:102px;
+	background-color: #ff2400;
+	background-image: url(img/contop3-t.png);
+	background-position:21px 26px;
+}
+.content-food .chocolate .text p{
+	font-size:30px;
+	color: white;
+	margin:82px 0 0 20px;
+	line-height:30px;
+}
+.content-food .chocolate .text span{
+	font-size:23px;
+}
+.content-food .chocolate .text strong{
+	color:#fffc00;
+	font-size:36px;
+}
+.content-food .cate{
+	margin-top:20px;
+	height:785px;
+}
+.cate .navigation{
+	height: 35px;
+	font-size:0px ;
+}
+.cate .navigation a{
+	line-height: 35px;
+	font-size: 15px;
+	float: left;
+	color: #65c00b;
+	margin-left:-5px ;
+	padding-left:29px ;
+	width:123px;
+	font-weight: bold;
+	background-image: url(img/contop3-nav2.png);
+}
+.cate .navigation .odds{
+	font-size: 19px;
+	background-image: url(img/contop3-nav1.png);
+	padding-left: 12px;
+	width: 140px;
+	color: white;
+	margin: 0;
+}
+.content-food .cate .cate-content{
+	margin-top:10px;
+	height:740px;
+	width:1180px;
+}
+.cate .cate-content ul{  
+}
+.cate .cate-content li{
+    list-style: none;
+    float: left;
+}
+.cate .cate-content li div{
+    height: 358px;
+    width: 273px;
+    margin-right: 20px;
+    border: 1px solid #e3e3e3;
+    text-align: center;
+}
+/*标签 折扣*/
+.cate .cate-content li .rebate{
+	position:relative;
+}
+.cate .cate-content li .green{
+	position: absolute;
+	top: -1px;
+	right: 5px;
+}
+.cate .cate-content li .number{
+	position: absolute;
+	top: 5px;
+	right:12px;
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+}
+.cate-content p.introduce{
+	font-size: 14px;
+	line-height: 14px;
+	margin-bottom: 12px;
+}
+.cate-content p.money{
+	font-size:12px;
+	line-height:16px;
+	color: #e01135;
+	padding:17px 0 11px 0;
+	border-bottom:1px dashed #cccccc;
+	width:229px;
+	margin:0 auto;
+	text-align: left;
+}
+.cate-content .money .left{
+	*float: left;
+}
+.cate-content p.weishang{
+	padding-top:12px;
+	font-size: 12px;
+	width:229px;
+	margin:0 auto;
+	text-align: left;
+	color: #aca8a8;
+	line-height: 12px;
+}
+.cate-content strong{
+	font-size: 20px;
+}
+.cate-content .pleased{
+	color: #aca8a8;
+	background-image:url(img/contop2-xin.png);
+	background-position:0 center;
+	padding-left:19px;
+	float: right;
+}
+.cate-content .shop{
+	padding-left:17px;
+	background-image: url(img/contop2-shop.png);
+	background-position-y: center;
+	float: left;
+}
+.cate-content .buy{
+	float: right;
+}
+.cate-content .mutch{
+	font-size: 11px;
+	color: #e01135;
+}
+.content-food .more{
+	width:354px;
+	height: 44px;
+	margin:30px auto 0 auto;
+	border:1px solid #bfbfbf;
+	text-align: center;
+	line-height:44px;
+}
+.content-food .more img{
+	cursor: pointer;
+	border: 0;
+	vertical-align: middle;
+}
+/*推荐*/
+.content .content-recommend{
+	width: 1160px;
+	margin:0 auto; 
+	margin-top:30px;
+	height:628px;
+}
+.content-recommend .title{
+	height:35px;
+}
+.content-recommend .title a{
+	background-image:url(img/contop4-title.png);
+	font-size: 19px;
+	line-height: 35px;
+	float: left;
+	padding-left:13px;
+	width:269px;
+	color: white;
+	font-weight:bold;
+}
+.content-recommend .recommend-content{
+	margin-top:21px;
+	width: 1158px;
+	height: 388px;
+	border: 1px solid #eeeeee;
+}
+.recommend-content .left{
+	width: 388px;
+	height: 388px;
+	border-right:1px solid #EEEEEE;
+	float: left;
+	background-image:url(img/contop4-c1.png);
+	background-size: 100% 100%;
+	position:relative;
+}
+.recommend-content .introduce{
+	width: 368px;
+	height: 104px;
+	position:absolute;
+	bottom:13px;
+	left: 9px;
+	border: 1px solid #EEEEEE;
+	background-color: rgba(255,255,255,0.7);
+}
+.recommend-content .name{
+	margin:7px 0 12px 12px;
+	font-size:16px;
+	line-height: 16px;
+	font-weight: bold;
+	color: black;
+}
+.recommend-content .name span{
+	color: #ff8213;
+}
+.recommend-content .users{
+	color: #e01135;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: bold;
+	margin:0 0 10px 12px; 
+}
+.recommend-content .evaluate{
+	font-size: 12px;
+	color: #4c4c4c;
+	margin:0 0 0 12px;
+}
+.recommend-content .centre{
+	width: 378px;
+	height: 388px;
+	border-right:1px solid #EEEEEE;
+	float: left;		
+}
+.recommend-content .centre .much{
+	color: #ff8213;
+	font-weight:bold;
+	font-size:16px; 
+	line-height:16px;
+	display:inline-block;
+	margin:11px 0 22px 97px;
+}
+.recommend-content .centre .name{
+	margin-bottom:0px;
+}
+.recommend-content .centre .wines{
+	height: 194px;
+	border-bottom:1px solid #EEEEEE;
+	background-image: url(img/contop4-c2.png);
+	background-position:7px 11px;
+	background-color: #c4efc2;
+	position: relative;
+}
+.recommend-content .centre .duck{
+	height: 193px;
+	background-image: url(img/contop4-c3.png);
+	background-color:#f58646;
+	position: relative;
+}
+.recommend-content .centre .intro{
+	position:absolute;
+	right: 10px;
+	bottom: 10px;
+	height:172px;
+	width:186px ;
+	border:1px solid #EEEEEE;
+	background-color: rgba(255,255,255,0.7); 
+}
+.recommend-content .right{
+	float:right;
+	width: 390px;
+	height: 388px;
+	background-image: url(img/contop4-c4.png);
+	background-size: 100% 100%;
+	position:relative;	
+}
+.content-recommend .recommend-banner{
+	height:120px;
+	margin:39px 0 23px 0;
+	background-image:url(img/contop4-banner.png);
+}
+.footer{
+	width: 1600px;
+	height:360px;
+	margin: 0 auto;
+	background-color:#514442; 
+}
+.footer .navigation{
+	width: 1160px;
+	height: 64px;
+	margin: 0 auto;
+	padding-top:34px;
+}
+.footer .navigation a{
+	display: inline-block;
+	line-height:64px;
+	height:64px;
+	font-size: 18px;
+	color: #b9b4b3; 
+	float: left;
+}
+.footer .navigation span{
+	display:inline-block;
+	height:42px;
+	width: 0px;
+	border:1px solid #615553;
+	float: left;
+	margin-top:13px; 
+}
+.footer .navigation .quality{
+	padding-left: 89px;
+	background-image:url(img/footer-nav1.png);
+	background-position:left center;
+}
+.footer .navigation .habitat{
+	padding-left: 82px;
+	background-image:url(img/footer-nav2.png);
+}
+.footer .navigation .private{
+	padding-left: 78px;
+	background-image:url(img/footer-nav3.png);
+}
+.footer .navigation .salable{
+	padding-left: 80px;
+	background-image:url(img/footer-nav4.png);
+}
+.footer .navigation .returned{
+	padding-left: 80px;
+	background-image:url(img/footer-nav5.png);
+}
+.footer .center{
+	width: 1160px;
+	margin:42px auto 16px auto;
+	height: 135px;
+	background-image:url(img/footer-c1.png);
+	background-position:left 13px;	
+	font-size: 0px;
+	color: #8f8484;
+}
+.footer .center p{
+	font-size: 16px;
+	height: 16px;
+	line-height: 16px;
+	margin-bottom: 12px;
+}
+.footer .center a{
+	display: block;
+	font-size: 12px;
+	height: 12px;
+	line-height: 12px;
+	margin-bottom:8px;
+	color: #8f8484;
+}
+.footer .center div{
+	width:130px;
+	height: 135px;
+	float: left;
+	margin-left:50px;
+}
+.footer .center .guide{
+	margin-left: 269px;
+}
+.footer .center .shift{
+	float: right;
+	background-image:url(img/footer-c2.png);
+	background-position:0 23px;
+}
+.footer hr{
+    border-color: #8f8484;
+}
+.footer .text{
+	height: 68px;
+	width: 1160px;
+	margin:0 auto;
+	text-align: center;
+	font-size: 12px;
+	color: #8f8484;
+}
+.footer .text p{
+	margin-top:16px;
+}

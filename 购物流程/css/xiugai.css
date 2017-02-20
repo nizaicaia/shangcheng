@@ -1,0 +1,227 @@
+.center{
+	width:1198px;
+    height:913px;
+    border:1px solid #e4e4e4;
+    margin: 25px auto 38px auto; 
+}
+.center-left{
+    width: 198px;
+    height:913px;
+    float: left;
+    border-right:1px solid #e4e4e4; 
+}
+.left-top{
+    height:198px;
+    background-image:url(../img/content-leftb.png);
+    background-position:30px 14px;
+    position: relative;
+}
+.left-top img{
+    position:absolute;
+    top:17px;
+    left:33px;
+}
+.left-top img.zhifubao{
+    position: absolute;
+    top: 162px;
+    left: 161px;
+}
+.left-top p{
+    position:absolute;
+    top: 161px;
+    left:23px; 
+    width: 154px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #5d5d5d; 
+    background-image:url(../img/content-left2.png);
+    background-position:118px;
+}
+.left-account{
+    height:50px;
+    line-height: 50px;
+    width:166px;
+    margin: 0 9px 0 11px;
+    padding-left: 12px;
+    font-size: 18px;
+    color: #5d5d5d;
+    border-top:1px dotted #cccccc;
+    border-bottom:1px dotted #cccccc; 
+}
+.center-left ul{
+    width:166px;
+    margin:0 9px 0px 11px;
+    padding-left: 12px;
+    font-size:14px;
+    color: #5d5d5d;
+    border-bottom:1px dotted #cccccc;
+}
+.center-left li{
+    margin-bottom:14px;
+}
+.center-left li:first-child{
+    font-size:18px;
+    line-height: 18px;
+    margin-top:23px;
+}  
+.center-left li:last-child{
+    margin-bottom:21px;
+}
+.center-left .set li:nth-child(2){
+    color:#e01135; 
+}
+.center-right{
+    height:913px;
+    width: 999px;
+    float: left;
+}
+.center-right .title{
+    height: 58px;
+    line-height: 58px;
+    padding-left:25px;
+    font-size: 24px;
+    color: #5d5d5d; 
+    border-bottom:1px solid #e4e4e4; 
+}
+.center-right .form{
+	padding:20px 0 0 30px;
+	height:420px;
+	color: #645858;
+}
+.center-right .form span{
+    height: 34px;
+    line-height: 34px;
+    display: inline-block;
+    font-size:12px;
+}
+.center-right .form p{
+    margin-bottom: 15px;
+    height: 34px;
+    width: 555px;
+    font-size:0px;
+}
+.center-right p.form-first{
+    margin-bottom: 10px;
+}
+.center-right .form .site{
+    height: 90px;
+}
+.center-right .form-text{
+    width: 90px;
+    float: left;
+    text-align: right;
+    margin-right:23px; 
+}
+.center-right .form .red{
+	color: #e01135;
+}
+.center-right .form-input input,.center-right .form-input select{
+	border: 1px solid #bfbfbf;
+}
+.center-right .form-input select.area{
+    width: 84px;
+    height: 32px;
+    margin-right:10px; 
+}
+.center-right .form-input select.prov{
+    width: 284px;
+    height: 32px;
+}
+.center-right .form-input input[type=text]{
+    padding-left:7px; 
+    width: 373px;
+    height: 32px;
+}
+.center-right p .warn{
+    width: 60px;
+    text-align: center;
+    float: right;
+}
+.center-right .site textarea{
+    height: 66px;
+    width: 366px;
+    outline: none;
+    padding:11px 7px; 
+}
+.center-right .form .def{
+    margin:5px 0 24px 113px;
+    height: 16px;
+}
+.center-right .def span{
+    height: 16px;
+    line-height: 16px;
+}
+.center-right p #address{
+    margin:3px 10px 0 0;
+    float: left;
+}
+.center-right input[type=submit]{
+    margin-left:113px;
+    height: 34px;
+    width: 98px;
+    color: white;
+    background-color: #ff6c00;
+    border: none;
+}
+.center-right .list{
+    padding:0 20px 0 30px;
+    margin-top:85px; 
+}
+.center-right .list table{
+    border: 1px solid #ffeeca;
+    color: #505050;
+    font-size: 0;
+}
+.center-right .list .list-title{
+    background-color: #fff8e9;
+    color: #898989;
+    height: 34px;
+    line-height: 34px;
+}
+.center-right .list tr{
+    height: 65px;
+}
+.txtc{
+    text-align: center;
+}
+.center-right table td{
+    padding:0; 
+    font-size:11px;
+    border-bottom: 1px solid #ededed;
+}
+.center-right .list-title td,.center-right .list-last td{
+    border-bottom:none;
+}
+.center-right table .name{
+    width: 88px; 
+}
+.center-right table .area{
+    width: 110px;
+    padding:0 20px;
+}
+.center-right table .adrs{
+    width: 230px;
+    padding:0 25px;
+}
+.center-right table .code{
+    width: 99px;
+}
+.center-right table .tel{
+    width: 140px;
+}
+.center-right table .opt{
+    width: 190px;
+}
+.center-right table .opt span{
+    display: inline-block;
+    background-color: #afafaf;
+    height:12px;
+    width: 1px; 
+    margin:0 10px -1px 10px;  
+}
+.center-right table .opt button{
+    border: none;
+    color: #ff6c00;
+    background-color: white;
+}
